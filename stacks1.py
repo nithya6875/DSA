@@ -1,5 +1,7 @@
-arr = [1,2,3,4,5]
+import vowpalwabbit
 
-print(len(arr))
+model = vowpalwabbit.Workspace(quiet=True)
+
+k = "lol"
 
 
